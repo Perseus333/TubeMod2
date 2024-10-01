@@ -215,6 +215,14 @@ const DEFAULT_ELEMENTS = [
     pageTypes: [PAGE_TYPES.HOME],
   },
   {
+    id: "hide-suggestions-home",
+    selector:
+      "//div[@id='contents']",
+    checked: false,
+    category: "HomePage",
+    pageTypes: [PAGE_TYPES.HOME],
+  },
+  {
     id: "ads",
     selector:
       "//ytd-ad-slot-renderer/ancestor::ytd-rich-item-renderer | //*[@id='player-ads'] | //ytd-banner-promo-renderer/..",
